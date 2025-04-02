@@ -26,16 +26,16 @@ python swp.py sub1_run_6.csv
 
 cd ..
 
-# 3. Localizer (all have 1.5s Merci after)
-# Visual 260 s - 6 s before first block, 14 sec per block (8 =20*0.4 s stim + 6 s rest), 8 s after last stim 
-# Audio	 196 s - 2 s before first block, 16 s per block (10 s stim + 6 rest), 2 s after last stim	
-# Hand	 191 s - 3 s before first, 10 s per block, 6 s rest after, 2 s after last stim	
-# Speech 191 s - 3 s before first, 10 s per block, 6 s rest after, 2 after last stim
+# 3. Localizer (all include 2.0 s Merci after)
+# Visual 220 s - 6 s before first block, 14 sec per block (8 =20*0.4 s stim + 6 s rest), 8 s after last stim 
+# Audio	 194 s - 2 s before first block, 16 s per block (10 s stim + 6 rest), 2 s after last stim	
+# Hand	 191 s - 5 s before first, 10 s per block, 6 s rest after, 2 s after last stim
+# Speech 191 s - 5 s before first, 10 s per block, 6 s rest after, 2 s after last stim
 
 # Run Instructions: 
 cd localizer
 
-python runVisualCategory.py
-python audiovis.py --total-duration 196000 audio_categories/sub1_audio.csv
-python audiovis.py --splash hand_categories/instructions.png --total-duration 191000 hand_categories/sub1_hand.csv
-python audiovis.py --splash speech_categories/instructions.png --total-duration 191000 speech_categories/sub1_speech.csv
+python runVisualCategory.py --splash visual_categories/Instructions/Instructions.png
+python audiovis.py --total-duration 194000 audio_categories/sub1_audio.csv
+python audiovis.py --splash hand_categories/Instructions.png --total-duration 191000 hand_categories/sub1_hand.csv
+python audiovis.py --splash speech_categories/Instructions.png --total-duration 191000 speech_categories/sub1_speech.csv

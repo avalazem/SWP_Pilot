@@ -58,7 +58,7 @@ cue_folder = r"Input_Data/Cues"
 
 # Function to display instructions based on modalities
 def display_instructions(instructions_folder):
-    instruction_image_path = Path(instructions_folder) / "instructions.png"
+    instruction_image_path = Path(instructions_folder) / "Instructions.png"
     instructions = stimuli.Picture(str(instruction_image_path))
     instructions.scale_to_fullscreen()
     instructions.present()
