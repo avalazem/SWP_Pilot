@@ -21,7 +21,7 @@ INITIAL_WAIT = 2000  # 2 seconds
 FINAL_WAIT = 2000  # 10 seconds
 TEXT_SIZE = 50
 TEXT_FONT = 'Inconsolata-Regular.ttf'  # make sure you know which font is used
-RESPONSE_KEY = 'y'
+RESPONSE_KEY = 'f'
 STIMULUS_DURATION = 200  # in milliseconds
 CUE_DURATION = 3000  # in milliseconds
 INTERBLOCK_DURATION = 6000  # in milliseconds
@@ -122,19 +122,18 @@ control.start(skip_ready_screen=True)
 # Display instructions 
 #input_modality = b.trials[0].get_factor('Input Modality') # remove since modalities are mixed in runs
 #output_modality = b.trials[0].get_factor('Output Modality')
-display_instructions(Path(instruction_image_folder), 'speech')
-exp.keyboard.wait_char(" ")
-display_instructions(Path(instruction_image_folder), 'write')
-exp.keyboard.wait_char(" ")
-display_instructions(Path(instruction_image_folder), 'instructions')
+display_instructions(Path(instruction_image_folder), 'Speech')
+exp.keyboard.wait_char(CONTROLLER_KEY)
+display_instructions(Path(instruction_image_folder), 'Write')
+exp.keyboard.wait_char(CONTROLLER_KEY)
+display_instructions(Path(instruction_image_folder), 'Instructions')
 
 
 # Wait for CONTROLLER_KEY
 exp.keyboard.wait_char(CONTROLLER_KEY)
 
-stimuli.TextLine('Préparez-vous...').present()
-# Wait for trigger signal
-exp.keyboard.wait_char(TRIGGER_KEY)
+stimuli.TextLine('Waiting for scanner sync (or press \'t\')').present()
+exp.keyboard.wait_char(TRIGGER_KEY) # Stimulate trigger signal for real runs
 
 start_time = exp.clock.time
 exp.screen.clear()

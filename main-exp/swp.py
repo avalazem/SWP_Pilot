@@ -13,21 +13,24 @@ Supervisor: Yair Lakretz
 import sys
 from pathlib import Path
 import pandas as pd
+import expyriment
 from expyriment import design, control, stimuli, misc, io
 
 
 DEBUG = False # set to False to run full screen
+
 INITIAL_WAIT = 2000  # 2 seconds
 FINAL_WAIT = 10000  # 10 seconds
 TEXT_SIZE = 50
 TEXT_FONT = 'Inconsolata-Regular.ttf'  # make sure you know which font is used
-RESPONSE_KEY = 'y'
+RESPONSE_KEY = 'f'
 STIMULUS_DURATION = 200  # in milliseconds
 CUE_DURATION = 3000  # in milliseconds
 INTERBLOCK_DURATION = 15000  # in milliseconds
 PRE_STIMULUS_FIXATION_DURATION = 2000  # in milliseconds
 NUM_BLOCKS = 4
-TRIGGER_KEY = 't' # For the fMRI machine
+MRI_SYNC_KEY = expyriment.misc.constants.K_t # For the fMRI machine
+N_T_WAIT = 3 # number of TTL to wait for at the start
 CONTROLLER_KEY = ' ' # For who runs the paradigm
 
 # Check for correct usage
@@ -55,6 +58,8 @@ instruction_image_folder = r"Input_Data/Instructions"
 # Path to the cue folder
 cue_folder = r"Input_Data/Cues"
 
+# Define keyboard as kb to make life easier
+kb = expyriment.io.Keyboard()
 
 # Function to display instructions based on modalities
 def display_instructions(instructions_folder):
@@ -69,7 +74,13 @@ def display_cue(cue_folder, output_modality):
     cue = stimuli.Picture(str(cue_image_path))
     cue.scale_to_fullscreen()
     cue.present()
+    
+def wait_for_mri_sync(n_t_wait):
 
+    t_signal_count = 0
+    while t_signal_count < n_t_wait :
+        kb.wait(MRI_SYNC_KEY)
+        t_signal_count += 1
 
 ################  Setup   ##########################################
 exp = design.Experiment(name="Single Word Processing", text_size=40)
@@ -125,11 +136,13 @@ control.start(skip_ready_screen=True)
 display_instructions(Path(instruction_image_folder))
 
 # Wait for CONTROLLER_KEY
-exp.keyboard.wait_char(CONTROLLER_KEY)
+kb.wait_char(CONTROLLER_KEY)
 
-stimuli.TextLine('Préparez-vous...').present()
+
+
 # Wait for trigger signal
-exp.keyboard.wait_char(TRIGGER_KEY)
+stimuli.TextLine('Waiting for scanner sync (or press \'t\')').present()
+wait_for_mri_sync(N_T_WAIT)
 
 start_time = exp.clock.time
 exp.screen.clear()
@@ -211,7 +224,7 @@ for itrial, t in enumerate(b.trials):
     print(f"{itrial}: Scheduled: {target_onset_time} Actual: {actual_onset_time} delta: {delta}{warn}")
 
     wait_time = duration - STIMULUS_DURATION - 200 - delta
-    key, rt = exp.keyboard.wait_char(RESPONSE_KEY,
+    key, rt = kb.wait_char(RESPONSE_KEY,
                                      duration=wait_time,
                                      process_control_events=True)
     if rt is not None:
@@ -227,7 +240,7 @@ for itrial, t in enumerate(b.trials):
 
 # wait for FINAL_WAIT (in total_duration already) before closing and record potential TRIGGER timestamps    
 while exp.clock.time - start_time < total_duration:
-    if exp.keyboard.check(TRIGGER_KEY):
+    if kb.check(MRI_SYNC_KEY):
         exp.data.add([exp.clock.time, exp.clock.time,'TRIGGER'])
     pass
 

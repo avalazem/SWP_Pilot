@@ -1,0 +1,58 @@
+#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
+#date: Wed Apr 02 2025 17:58:20
+#sha1: c11a83
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5526,stdout,received,'Total number of events:  20'
+5527,stdout,received,'Expected Total duration:  175.0 s'
+10822,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10822,design,logged,
+10822,Experiment,started
+10839,Picture,loaded,Input_Data\Instructions\Initial_Instructions.png
+10865,Stimulus,presented,23
+12842,Keyboard,received, ,wait_char
+12847,Stimulus,presented,24
+13897,Keyboard,received,t,wait_char
+13922,Picture,loaded,Input_Data\Cues\Write.png
+13944,Stimulus,presented,25
+16948,Stimulus,presented,0
+18898,Stimulus,presented,1
+19100,Stimulus,presented,0
+19100,stdout,received,'0: Scheduled: 5000 Actual: 5001 delta: 1'
+27699,Keyboard,received,None,wait_char
+27702,Stimulus,presented,0
+27898,Stimulus,presented,2
+28100,Stimulus,presented,0
+28101,stdout,received,'1: Scheduled: 14000.0 Actual: 14001 delta: 1.0'
+38200,Keyboard,received,None,wait_char
+38203,Stimulus,presented,0
+38398,Stimulus,presented,3
+38600,Stimulus,presented,0
+38600,stdout,received,'2: Scheduled: 24500.0 Actual: 24501 delta: 1.0'
+49199,Keyboard,received,None,wait_char
+49202,Stimulus,presented,0
+49398,Stimulus,presented,4
+49600,Stimulus,presented,0
+49601,stdout,received,'3: Scheduled: 35500.0 Actual: 35501 delta: 1.0'
+58700,Keyboard,received,None,wait_char
+58703,Stimulus,presented,0
+58898,Stimulus,presented,5
+59100,Stimulus,presented,0
+59101,stdout,received,'4: Scheduled: 45000.0 Actual: 45001 delta: 1.0'
+68700,Keyboard,received,None,wait_char
+69920,Picture,loaded,Input_Data\Cues\Speech.png
+70149,Stimulus,presented,26
+73154,Stimulus,presented,0
+74897,Stimulus,played,b'Input_Data\\Audio_Files\\dictature_MALE_G.wav'
+75100,Stimulus,presented,0
+75101,stdout,received,'5: Scheduled: 61000.0 Actual: 61000 delta: 0.0'
+76430,Experiment,paused
+76435,Stimulus,presented,27
+76736,Keyboard,received,y,wait_char
+76737,Experiment,ended
+76756,Data,saved
+76760,Stimulus,presented,27

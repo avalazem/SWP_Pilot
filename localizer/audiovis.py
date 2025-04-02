@@ -38,7 +38,7 @@ WINDOW_SIZE = (1280, 1028)
 
 # Ali Added - only allow 'y' key presses
 KEY_TRANSLATION = {
-    expyriment.misc.constants.K_y: 'y' # Changed to only allow 'y' (left hand button presses in fMRI scanner)
+    expyriment.misc.constants.K_f: 'f' # Changed to only allow 'f' (right hand button presses in fMRI scanner)
 }
 AUTHORIZED_KEYS = KEY_TRANSLATION.keys()
 
@@ -267,6 +267,7 @@ while not(events.empty()):
     stim.present()
     exp.data.add(['{}'.format(cond), a.time, '{},{},{}'.format(stype, id, onset)])
 
+
     # Check for key presses
     k = kb.check(keys=AUTHORIZED_KEYS)
     if k is not None:
@@ -274,8 +275,8 @@ while not(events.empty()):
         
     # Present the fixation cross
     if stype == 'blank':
-        fs.present()
-    
+        fs.present() 
+        
 if TOTAL_EXPE_DURATION != -1:
     while a.time < TOTAL_EXPE_DURATION:
         kb.process_control_keys()
