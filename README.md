@@ -26,11 +26,11 @@ python swp.py sub1_run_6.csv
 
 cd ..
 
-# 3. Localizer (all include 2.0 s Merci after)
-# Visual 220 s - 6 s before first block, 14 sec per block (8 =20*0.4 s stim + 6 s rest), 8 s after last stim 
-# Audio	 194 s - 2 s before first block, 16 s per block (10 s stim + 6 rest), 2 s after last stim	
-# Hand	 191 s - 5 s before first, 10 s per block, 6 s rest after, 2 s after last stim
-# Speech 191 s - 5 s before first, 10 s per block, 6 s rest after, 2 s after last stim
+# 3. Localizer (all additionally have 2.0 s Merci after)
+# Visual 222 s - 6 s before first block, 14 sec per block (8 =20*0.4 s stim + 6 s rest), 6 s after last stim 
+# Audio	 194 s - 2 s before first block, 16 s per block (10 s stim + 6 rest)
+# Hand	 191 s - 5 s before first, 10 s per block, 6 s rest after
+# Speech 191 s - 5 s before first, 10 s per block, 6 s rest after
 
 # Run Instructions: 
 cd localizer
