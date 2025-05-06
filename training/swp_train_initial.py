@@ -122,11 +122,11 @@ control.start(skip_ready_screen=True)
 # Display instructions 
 #input_modality = b.trials[0].get_factor('Input Modality') # remove since modalities are mixed in runs
 #output_modality = b.trials[0].get_factor('Output Modality')
-display_instructions(Path(instruction_image_folder), 'Speech')
+display_instructions(Path(instruction_image_folder), 'Initial_Instructions')
 exp.keyboard.wait_char(CONTROLLER_KEY)
 display_instructions(Path(instruction_image_folder), 'Write')
 exp.keyboard.wait_char(CONTROLLER_KEY)
-display_instructions(Path(instruction_image_folder), 'Initial_Instructions')
+display_instructions(Path(instruction_image_folder), 'Speech')
 
 
 # Wait for CONTROLLER_KEY
