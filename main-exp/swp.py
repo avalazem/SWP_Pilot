@@ -155,7 +155,6 @@ exp.data.add_variable_names(['modality',
                              'actual_timestamp',
                              'key',
                              'rt'])
-
 ########### main loop ##############################
 # Initialize previous modalities
 previous_input_modality = None

@@ -7,9 +7,9 @@
 # Run Instructions: 
 cd training 
 
-python swp_train_initial.py training_run_1.csv
-python swp_train.py training_run_2.csv
-python swp_train.py training_run_3.csv
+SDL_AUDIODRIVER=alsa python swp_train_initial.py training_run_1.csv
+SDL_AUDIODRIVER=alsa python swp_train.py training_run_2.csv
+SDL_AUDIODRIVER=alsa python swp_train.py training_run_3.csv
 
 cd .. 
 
@@ -19,12 +19,12 @@ cd ..
 # Run Instructions:
 cd main-exp
 
-python swp.py sub1_run_1.csv
-python swp.py sub1_run_2.csv
-python swp.py sub1_run_3.csv
-python swp.py sub1_run_4.csv
-python swp.py sub1_run_5.csv
-python swp.py sub1_run_6.csv
+SDL_AUDIODRIVER=alsa python swp.py sub02_run_1.csv
+SDL_AUDIODRIVER=alsa python swp.py sub02_run_2.csv
+SDL_AUDIODRIVER=alsa python swp.py sub02_run_3.csv
+SDL_AUDIODRIVER=alsa python swp.py sub02_run_4.csv
+SDL_AUDIODRIVER=alsa python swp.py sub02_run_5.csv
+SDL_AUDIODRIVER=alsa python swp.py sub02_run_6.csv
 
 cd ..
 
@@ -38,6 +38,6 @@ cd ..
 cd localizer
 
 python runVisualCategory.py --splash visual_categories/Instructions/Instructions.png
-python audiovis.py --total-duration 194000 audio_categories/sub1_audio.csv
-python audiovis.py --splash hand_categories/Instructions.png --total-duration 191000 hand_categories/sub1_hand.csv
-python audiovis.py --splash speech_categories/Instructions.png --total-duration 191000 speech_categories/sub1_speech.csv
+SDL_AUDIODRIVER=alsa python audiovis.py --total-duration 194000 audio_categories/sub02_audio.csv
+python audiovis.py --splash hand_categories/Instructions.png --total-duration 191000 hand_categories/sub02_hand.csv
+python audiovis.py --splash speech_categories/Instructions.png --total-duration 191000 speech_categories/sub02_speech.csv

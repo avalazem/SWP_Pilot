@@ -1,9 +1,0 @@
-#Expyriment 0.11.dev5 (Python 3.11.9), .xpe-file, coding: cp1252
-#date: Wed Apr 02 2025 18:05:38
-#sha1: c9430b
-#modules: 
-#display: size=(800, 600), window_mode=False, opengl=2
-#os: uname_result(system='Windows', node='Geoff3', release='10', version='10.0.26100', machine='AMD64')
-Time,Type,Event,Value,Detail,Detail2
-5102,stdout,received,'Total number of events:  10'
-5103,stdout,received,'Expected Total duration:  88.0 s'

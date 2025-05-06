@@ -126,7 +126,7 @@ display_instructions(Path(instruction_image_folder), 'Speech')
 exp.keyboard.wait_char(CONTROLLER_KEY)
 display_instructions(Path(instruction_image_folder), 'Write')
 exp.keyboard.wait_char(CONTROLLER_KEY)
-display_instructions(Path(instruction_image_folder), 'Instructions')
+display_instructions(Path(instruction_image_folder), 'Initial_Instructions')
 
 
 # Wait for CONTROLLER_KEY
