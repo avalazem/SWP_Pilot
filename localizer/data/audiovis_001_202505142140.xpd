@@ -1,0 +1,27 @@
+#Expyriment 0.11.dev5 (Python 3.12.7), .xpd-file, coding: UTF-8
+#date: Wed May 14 2025 21:40:03
+#--EXPERIMENT INFO
+#e mainfile: audiovis.py
+#e sha1: f7f8a7
+#e modules: 
+#e Experiment: HiRes Experiment
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,condition,time,stype,id,target_time
+1,,2014,"picture,finger.png,2000"
+1,,5028,"blank,blank,5000"
+1,,15014,"picture,write.png,15000"
+1,,18030,"blank,blank,18000"
+1,,21014,"text,vision,21000"
+1,,21230,"blank,blank,21200"
+1,,31014,"picture,write.png,31000"
+1,,34029,"blank,blank,34000"
+1,,37014,"text,basket,37000"
+1,,37230,"blank,blank,37200"
+1,,47014,"picture,finger.png,47000"
+1,,50034,"blank,blank,50000"
+1,,63014,"picture,write.png,63000"
+1,,66029,"blank,blank,66000"
+1,,69014,"text,profit,69000"
+1,,69229,"blank,blank,69200"
