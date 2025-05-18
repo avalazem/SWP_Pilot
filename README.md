@@ -1,6 +1,6 @@
 # Single-Word Processing
 
-# CHECKLIST SUJET_XX
+# CHECKLIST SUJET_03
 # - Assurez que tout fonctionne et que les câbles (en particulier pour les pressions sur le trigger et les boutons) sont branchés ☐
 # - Assurez que les contrôleurs disposent de timings pour les TR. ☐
 # - Expliquer l'aperçu et la motivation de l'expérience à sujet ☐
