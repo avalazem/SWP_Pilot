@@ -1,4 +1,23 @@
-# Running the Experiment
+# Single-Word Processing
+
+# CHECKLIST SUJET_XX
+# - Assurez que tout fonctionne et que les câbles (en particulier pour les pressions sur le trigger et les boutons) sont branchés ☐
+# - Assurez que les contrôleurs disposent de timings pour les TR. ☐
+# - Expliquer l'aperçu et la motivation de l'expérience à sujet ☐
+# - Demandez au participant s'il/elle est dactylo ou non (si oui faites le main-exp_type, main-exp_write sinon) ☐
+# - Montrez-lui la tâche avec le tablette/clavier. ☐
+# - Expliquez que répéter des mots et fredonner (pour le localisateur) sont mentaux! ☐
+# - Les tâches de localisation sont après le signal! ☐
+# - Expliquez au sujet et aux contrôleurs que le bouton gauche sera enfoncé après avoir répété le mot (doit être attaché avec du scotch) ☐
+# - Commencez l'entraînement ☐
+# - Commencez main runs ☐
+# - Commencez le localisateur. Rappelez-lui les tâches du localisateur avant chaqun ☐
+#   (il/elle doit appuyer sur le bouton quand il voit l'étoile, etc.)
+# - Débriefing
+
+
+
+# RUNNING THE EXPERIMENT
 # Note: All button presses only accept 'f' (all swp runs and visual/speech localizer)
 # Note: Main-Exp and Localizer wait for 3 't's
 
