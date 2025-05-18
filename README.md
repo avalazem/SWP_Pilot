@@ -3,10 +3,10 @@
 # Note: Main-Exp and Localizer wait for 3 't's
 
 # 1. Training
-# 1 initial run w/ thorough instructions, 1 run mimicking main-exp. A few min total either modality
+# 1 initial run w/ thorough instructions, 1 run mimicking main-exp. Around 5 minutes total.
 # Run Instructions:
-cd training_no-type (Only finger)
-cd training_type (Both finger and type runs)
+cd training_write (Finger writing hand-runs)
+cd training_type (Type hand-runs)
 
 SDL_AUDIODRIVER=alsa python swp_train_initial.py training_run_1.csv
 SDL_AUDIODRIVER=alsa python swp_train.py training_run_2.csv
@@ -17,8 +17,8 @@ cd ..
 # 420 s each run; 42 min total - 5 s before first block,  4 blocks of 90 s w/ 15 s rest, 10 s after final block
 
 # Run Instructions:
-cd main-exp_no-type (Only finger)
-cd main-exp_type (Both finger and type runs)
+cd main-exp_write (Finger writing hand-runs)
+cd main-exp_type (Type hand-runs)
 
 SDL_AUDIODRIVER=alsa python swp.py sub3_run_1.csv
 SDL_AUDIODRIVER=alsa python swp.py sub3_run_2.csv
