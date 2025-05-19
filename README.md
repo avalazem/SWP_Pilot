@@ -59,8 +59,8 @@ cd ..
 cd localizer
 
 python runVisualCategory.py --splash visual_categories/Instructions/Instructions.png
-SDL_AUDIODRIVER=alsa python audiovis.py --total-duration 194000 audio_categories/sub02_audio.csv
-python audiovis.py --splash hand_categories/Instructions.png --total-duration 191000 hand_categories/sub02_hand.csv
-python audiovis.py --splash speech_categories/Instructions.png --total-duration 191000 speech_categories/sub02_speech.csv
+SDL_AUDIODRIVER=alsa python audiovis.py --total-duration 194000 audio_categories/sub03_audio.csv
+python audiovis.py --splash hand_categories/Instructions.png --total-duration 191000 hand_categories/sub03_hand.csv
+python audiovis.py --splash speech_categories/Instructions.png --total-duration 191000 speech_categories/sub03_speech.csv
 
 
