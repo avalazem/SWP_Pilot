@@ -1,0 +1,96 @@
+#Expyriment 0.11.dev5 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Sat May 17 2025 10:02:11
+#sha1: dbd827
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Linux', node='Geoff3', release='6.11.0-25-generic', version='#25-Ubuntu SMP PREEMPT_DYNAMIC Fri Apr 11 23:29:18 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4205,stdout,received,'Total number of events:  48'
+4205,stdout,received,'Expected Total duration:  420.0 s'
+10653,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10653,design,logged,
+10653,Experiment,started
+10666,Picture,loaded,Input_Data/Instructions/Instructions_Write.png
+10704,Stimulus,presented,51
+10705,stdout,received,'Write instructions'
+12154,Keyboard,received, ,wait_char
+12180,Stimulus,presented,52
+13788,Keyboard,received,116,wait
+14175,Keyboard,received,116,wait
+14513,Keyboard,received,116,wait
+14554,Picture,loaded,Input_Data/Cues/Speech.png
+14587,Stimulus,presented,53
+17613,Stimulus,presented,0
+19513,Stimulus,played,b'Input_Data/Audio_Files/cirlement_MALE_G.wav'
+19738,Stimulus,presented,0
+19738,stdout,received,'0: Scheduled: 5000 Actual: 5000 delta: 0'
+23338,Keyboard,received,None,wait_char
+23363,Stimulus,presented,0
+23513,Stimulus,played,b'Input_Data/Audio_Files/roduillon_FEMALE_C.wav'
+23737,Stimulus,presented,0
+23737,stdout,received,'1: Scheduled: 9000.0 Actual: 9000 delta: 0.0'
+28837,Keyboard,received,None,wait_char
+28862,Stimulus,presented,0
+29013,Stimulus,played,b'Input_Data/Audio_Files/\xc3\xa9crevisse_MALE_G.wav'
+29237,Stimulus,presented,0
+29237,stdout,received,'2: Scheduled: 14500.0 Actual: 14500 delta: 0.0'
+33337,Keyboard,received,None,wait_char
+33362,Stimulus,presented,0
+33513,Stimulus,played,b'Input_Data/Audio_Files/trude_FEMALE_C.wav'
+33737,Stimulus,presented,0
+33737,stdout,received,'3: Scheduled: 19000.0 Actual: 19000 delta: 0.0'
+38337,Keyboard,received,None,wait_char
+38362,Stimulus,presented,0
+38513,Stimulus,played,b'Input_Data/Audio_Files/champagne_MALE_G.wav'
+38737,Stimulus,presented,0
+38737,stdout,received,'4: Scheduled: 24000.0 Actual: 24000 delta: 0.0'
+43337,Keyboard,received,None,wait_char
+43362,Stimulus,presented,0
+43513,Stimulus,played,b'Input_Data/Audio_Files/sphinx_MALE_G.wav'
+43738,Stimulus,presented,0
+43738,stdout,received,'5: Scheduled: 29000.0 Actual: 29000 delta: 0.0'
+48838,Keyboard,received,None,wait_char
+48862,Stimulus,presented,0
+49013,Stimulus,played,b'Input_Data/Audio_Files/unit\xc3\xa9_FEMALE_C.wav'
+49237,Stimulus,presented,0
+49237,stdout,received,'6: Scheduled: 34500.0 Actual: 34500 delta: 0.0'
+53837,Keyboard,received,None,wait_char
+53863,Stimulus,presented,0
+54013,Stimulus,played,b'Input_Data/Audio_Files/slage\xcc\x81_FEMALE_C.wav'
+54238,Stimulus,presented,0
+54238,stdout,received,'7: Scheduled: 39500.0 Actual: 39500 delta: 0.0'
+59838,Keyboard,received,None,wait_char
+59863,Stimulus,presented,0
+60013,Stimulus,played,b'Input_Data/Audio_Files/\xc3\xa9tudiant_FEMALE_C.wav'
+60254,Stimulus,presented,0
+60254,stdout,received,'8: Scheduled: 45500.0 Actual: 45500 delta: 0.0'
+64354,Keyboard,received,None,wait_char
+64379,Stimulus,presented,0
+64513,Stimulus,played,b'Input_Data/Audio_Files/d\xc3\xa9compose_FEMALE_C.wav'
+64738,Stimulus,presented,0
+64738,stdout,received,'9: Scheduled: 50000.0 Actual: 50000 delta: 0.0'
+69338,Keyboard,received,None,wait_char
+69363,Stimulus,presented,0
+69513,Stimulus,played,b'Input_Data/Audio_Files/inapte_FEMALE_C.wav'
+69738,Stimulus,presented,0
+69738,stdout,received,'10: Scheduled: 55000.0 Actual: 55000 delta: 0.0'
+75338,Keyboard,received,None,wait_char
+75363,Stimulus,presented,0
+75513,Stimulus,played,b'Input_Data/Audio_Files/jardin_MALE_G.wav'
+75737,Stimulus,presented,0
+75737,stdout,received,'11: Scheduled: 61000.0 Actual: 61000 delta: 0.0'
+79337,Keyboard,received,None,wait_char
+89375,Picture,loaded,Input_Data/Cues/Write.png
+89416,Stimulus,presented,54
+92442,Stimulus,presented,0
+94537,Stimulus,presented,13
+94762,Stimulus,presented,0
+94762,stdout,received,'12: Scheduled: 80000.0 Actual: 80024 delta: 24.0!!'
+99852,Experiment,paused
+99878,Stimulus,presented,55
+100106,Keyboard,received,y,wait_char
+100106,Experiment,ended
+100107,Data,saved
+100132,Stimulus,presented,55

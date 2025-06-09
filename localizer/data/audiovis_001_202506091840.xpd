@@ -1,0 +1,41 @@
+#Expyriment 0.11.dev5 (Python 3.12.7), .xpd-file, coding: UTF-8
+#date: Mon Jun 09 2025 18:40:17
+#--EXPERIMENT INFO
+#e mainfile: audiovis.py
+#e sha1: f7f8a7
+#e modules: 
+#e Experiment: HiRes Experiment
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,condition,time,stype,id,target_time
+1,,1990,"sound,fur-elise-beethoven.wav,2000"
+1,,14990,"sound,stop.wav,15000"
+1,,20990,"sound,invite_FEMALE_C.wav,21000"
+1,,26990,"sound,signal_MALE_G.wav,27000"
+1,,32990,"sound,stop.wav,33000"
+1,,38990,"sound,fur-elise-beethoven.wav,39000"
+1,,51990,"sound,stop.wav,52000"
+1,,57990,"sound,garage_FEMALE_C.wav,58000"
+1,,63990,"sound,nation_MALE_G.wav,64000"
+1,,69990,"sound,stop.wav,70000"
+1,,75990,"sound,fur-elise-beethoven.wav,76000"
+1,,88990,"sound,stop.wav,89000"
+1,,94990,"sound,temple_FEMALE_C.wav,95000"
+1,,100990,"sound,tunnel_MALE_G.wav,101000"
+1,,106990,"sound,stop.wav,107000"
+1,,112990,"sound,fur-elise-beethoven.wav,113000"
+1,,125990,"sound,stop.wav,126000"
+1,,131990,"sound,action_MALE_G.wav,132000"
+1,,137990,"sound,phrase_MALE_G.wav,138000"
+1,,143990,"sound,stop.wav,144000"
+1,,149990,"sound,fur-elise-beethoven.wav,150000"
+1,,162990,"sound,stop.wav,163000"
+1,,168990,"sound,budget_FEMALE_C.wav,169000"
+1,,174990,"sound,client_FEMALE_C.wav,175000"
+1,,180990,"sound,stop.wav,181000"
+1,,186990,"sound,fur-elise-beethoven.wav,187000"
+1,,199990,"sound,stop.wav,200000"
+1,,205990,"sound,garage_MALE_G.wav,206000"
+1,,211990,"sound,action_FEMALE_C.wav,212000"
+1,,217990,"sound,stop.wav,218000"

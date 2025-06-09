@@ -1,0 +1,27 @@
+#Expyriment 0.11.dev5 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Mon Jun 09 2025 17:20:15
+#sha1: f7f8a7
+#modules: 
+#display: size=(1280, 1028), window_mode=False, opengl=2
+#os: uname_result(system='Linux', node='Geoff3', release='6.11.0-25-generic', version='#25-Ubuntu SMP PREEMPT_DYNAMIC Fri Apr 11 23:29:18 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4085,stderr,received,'Traceback (most recent call last):'
+4085,stderr,received,'  File "/home/avalazem/Desktop/Work/Single_Word_Processing_Stage/SWP_Pilot_4/localizer/audiovis.py", line 163, in <module>'
+4085,stderr,received,'    stimlist = pd.read_csv(listfile)'
+4085,stderr,received,'               ^^^^^^^^^^^^^^^^^^^^^'
+4085,stderr,received,'  File "/home/avalazem/Desktop/Work/Single_Word_Processing_Stage/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv'
+4086,stderr,received,'    return _read(filepath_or_buffer, kwds)'
+4086,stderr,received,'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+4086,stderr,received,'  File "/home/avalazem/Desktop/Work/Single_Word_Processing_Stage/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read'
+4086,stderr,received,'    parser = TextFileReader(filepath_or_buffer, **kwds)'
+4086,stderr,received,'             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+4086,stderr,received,'  File "/home/avalazem/Desktop/Work/Single_Word_Processing_Stage/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__'
+4087,stderr,received,'    self._engine = self._make_engine(f, self.engine)'
+4087,stderr,received,'                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+4087,stderr,received,'  File "/home/avalazem/Desktop/Work/Single_Word_Processing_Stage/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine'
+4087,stderr,received,'    self.handles = get_handle('
+4087,stderr,received,'                   ^^^^^^^^^^^'
+4087,stderr,received,'  File "/home/avalazem/Desktop/Work/Single_Word_Processing_Stage/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle'
+4087,stderr,received,'    handle = open('
+4087,stderr,received,'             ^^^^^'
+4087,stderr,received,"FileNotFoundError: [Errno 2] No such file or directory: 'hand_categories/sub04_hand.csv'"

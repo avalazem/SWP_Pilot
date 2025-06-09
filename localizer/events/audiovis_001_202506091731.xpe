@@ -1,0 +1,84 @@
+#Expyriment 0.11.dev5 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Mon Jun 09 2025 17:31:57
+#sha1: f7f8a7
+#modules: 
+#display: size=(1280, 1028), window_mode=False, opengl=2
+#os: uname_result(system='Linux', node='Geoff3', release='6.11.0-25-generic', version='#25-Ubuntu SMP PREEMPT_DYNAMIC Fri Apr 11 23:29:18 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4075,stdout,received,"Pandas(Index=0, onset=2000, type='sound', stim='tapoter_du_doigt_MALE_G.wav')"
+4078,stdout,received,"Pandas(Index=1, onset=13000, type='sound', stim='stop.wav')"
+4079,stdout,received,"Pandas(Index=2, onset=19000, type='sound', stim='budget_FEMALE_C.wav')"
+4081,stdout,received,"Pandas(Index=3, onset=25000, type='sound', stim='signal_MALE_G.wav')"
+4083,stdout,received,"Pandas(Index=4, onset=31000, type='sound', stim='stop.wav')"
+4083,stdout,received,"Pandas(Index=5, onset=37000, type='sound', stim='tapoter_du_doigt_MALE_G.wav')"
+4083,stdout,received,"Pandas(Index=6, onset=48000, type='sound', stim='stop.wav')"
+4083,stdout,received,"Pandas(Index=7, onset=54000, type='sound', stim='nation_MALE_G.wav')"
+4085,stdout,received,"Pandas(Index=8, onset=60000, type='sound', stim='phrase_FEMALE_C.wav')"
+4086,stdout,received,"Pandas(Index=9, onset=66000, type='sound', stim='stop.wav')"
+4086,stdout,received,"Pandas(Index=10, onset=72000, type='sound', stim='tapoter_du_doigt_FEMALE_C.wav')"
+4089,stdout,received,"Pandas(Index=11, onset=83000, type='sound', stim='stop.wav')"
+4089,stdout,received,"Pandas(Index=12, onset=89000, type='sound', stim='effort_FEMALE_C.wav')"
+4091,stdout,received,"Pandas(Index=13, onset=95000, type='sound', stim='tennis_MALE_G.wav')"
+4092,stdout,received,"Pandas(Index=14, onset=101000, type='sound', stim='stop.wav')"
+4092,stdout,received,"Pandas(Index=15, onset=107000, type='sound', stim='tapoter_du_doigt_FEMALE_C.wav')"
+4092,stdout,received,"Pandas(Index=16, onset=118000, type='sound', stim='stop.wav')"
+4092,stdout,received,"Pandas(Index=17, onset=124000, type='sound', stim='blonde_FEMALE_C.wav')"
+4094,stdout,received,"Pandas(Index=18, onset=130000, type='sound', stim='client_FEMALE_C.wav')"
+4095,stdout,received,"Pandas(Index=19, onset=136000, type='sound', stim='stop.wav')"
+4095,stdout,received,"Pandas(Index=20, onset=142000, type='sound', stim='tapoter_du_doigt_MALE_G.wav')"
+4095,stdout,received,"Pandas(Index=21, onset=153000, type='sound', stim='stop.wav')"
+4095,stdout,received,"Pandas(Index=22, onset=159000, type='sound', stim='vision_FEMALE_C.wav')"
+4096,stdout,received,"Pandas(Index=23, onset=165000, type='sound', stim='tunnel_MALE_G.wav')"
+4098,stdout,received,"Pandas(Index=24, onset=171000, type='sound', stim='stop.wav')"
+4098,stdout,received,"Pandas(Index=25, onset=177000, type='sound', stim='tapoter_du_doigt_FEMALE_C.wav')"
+4098,stdout,received,"Pandas(Index=26, onset=188000, type='sound', stim='stop.wav')"
+4098,stdout,received,"Pandas(Index=27, onset=194000, type='sound', stim='profit_MALE_G.wav')"
+4099,stdout,received,"Pandas(Index=28, onset=200000, type='sound', stim='temple_MALE_G.wav')"
+4101,stdout,received,"Pandas(Index=29, onset=206000, type='sound', stim='stop.wav')"
+10876,design,log,
+#design: #exp: HiRes Experiment
+#design: #dvn: condition,time,stype,id,target_time
+#design: block_cnt,block_id,trial_cnt,trial_id
+10876,design,logged,
+10876,Experiment,started
+10879,Picture,loaded,hand_categories/Instructions.png
+10919,Stimulus,presented,20
+18993,Keyboard,received, ,wait_char
+19020,Stimulus,presented,1
+20240,Keyboard,received,116,wait
+20655,Keyboard,received,116,wait
+20912,Keyboard,received,116,wait
+20937,Stimulus,presented,2
+22928,Stimulus,played,b'hand_categories/tapoter_du_doigt_MALE_G.wav'
+33928,Stimulus,played,b'hand_categories/stop.wav'
+39928,Stimulus,played,b'hand_categories/budget_FEMALE_C.wav'
+45928,Stimulus,played,b'hand_categories/signal_MALE_G.wav'
+51928,Stimulus,played,b'hand_categories/stop.wav'
+57928,Stimulus,played,b'hand_categories/tapoter_du_doigt_MALE_G.wav'
+68928,Stimulus,played,b'hand_categories/stop.wav'
+74928,Stimulus,played,b'hand_categories/nation_MALE_G.wav'
+80928,Stimulus,played,b'hand_categories/phrase_FEMALE_C.wav'
+86928,Stimulus,played,b'hand_categories/stop.wav'
+92928,Stimulus,played,b'hand_categories/tapoter_du_doigt_FEMALE_C.wav'
+103928,Stimulus,played,b'hand_categories/stop.wav'
+109928,Stimulus,played,b'hand_categories/effort_FEMALE_C.wav'
+115928,Stimulus,played,b'hand_categories/tennis_MALE_G.wav'
+121928,Stimulus,played,b'hand_categories/stop.wav'
+127928,Stimulus,played,b'hand_categories/tapoter_du_doigt_FEMALE_C.wav'
+138928,Stimulus,played,b'hand_categories/stop.wav'
+144928,Stimulus,played,b'hand_categories/blonde_FEMALE_C.wav'
+150928,Stimulus,played,b'hand_categories/client_FEMALE_C.wav'
+156928,Stimulus,played,b'hand_categories/stop.wav'
+162928,Stimulus,played,b'hand_categories/tapoter_du_doigt_MALE_G.wav'
+173928,Stimulus,played,b'hand_categories/stop.wav'
+179928,Stimulus,played,b'hand_categories/vision_FEMALE_C.wav'
+185928,Stimulus,played,b'hand_categories/tunnel_MALE_G.wav'
+191928,Stimulus,played,b'hand_categories/stop.wav'
+197928,Stimulus,played,b'hand_categories/tapoter_du_doigt_FEMALE_C.wav'
+208928,Stimulus,played,b'hand_categories/stop.wav'
+214928,Stimulus,played,b'hand_categories/profit_MALE_G.wav'
+220928,Stimulus,played,b'hand_categories/temple_MALE_G.wav'
+226928,Stimulus,played,b'hand_categories/stop.wav'
+230028,Experiment,ended
+230028,Data,saved
+230053,Stimulus,presented,21

@@ -1,0 +1,13 @@
+#Expyriment 0.11.dev5 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Mon Jun 09 2025 16:56:28
+#sha1: f7f8a7
+#modules: 
+#display: size=(1280, 1028), window_mode=False, opengl=2
+#os: uname_result(system='Linux', node='Geoff3', release='6.11.0-25-generic', version='#25-Ubuntu SMP PREEMPT_DYNAMIC Fri Apr 11 23:29:18 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4098,stdout,received,"Pandas(Index=0, onset=2000, type='picture', stim='finger.png')"
+4099,stderr,received,'Traceback (most recent call last):'
+4099,stderr,received,'  File "/home/avalazem/Desktop/Work/Single_Word_Processing_Stage/SWP_Pilot_4/localizer/audiovis.py", line 184, in <module>'
+4099,stderr,received,'    raise FileNotFoundError(f"Image not found: {image_path}")  # Debugging'
+4099,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+4099,stderr,received,'FileNotFoundError: Image not found: hand_categories/finger.png'

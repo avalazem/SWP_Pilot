@@ -1,0 +1,22 @@
+#Expyriment 0.11.dev5 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Sat May 17 2025 10:04:04
+#sha1: 847370
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Linux', node='Geoff3', release='6.11.0-25-generic', version='#25-Ubuntu SMP PREEMPT_DYNAMIC Fri Apr 11 23:29:18 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4170,stdout,received,'Total number of events:  48'
+4170,stdout,received,'Expected Total duration:  420.0 s'
+10554,design,log,
+#design: #exp: Single Word Processing
+#design: block_cnt,block_id,trial_cnt,trial_id
+10554,design,logged,
+10554,Experiment,started
+10570,Picture,loaded,Input_Data/Instructions/Instructions_Type.png
+10617,Stimulus,presented,51
+10619,stdout,received,'Type instructions'
+16560,Experiment,paused
+16586,Stimulus,presented,52
+17774,Keyboard,received,y,wait_char
+17774,Experiment,ended
+17800,Stimulus,presented,52

@@ -1,0 +1,41 @@
+#Expyriment 0.11.dev5 (Python 3.12.7), .xpd-file, coding: UTF-8
+#date: Mon Jun 09 2025 17:31:57
+#--EXPERIMENT INFO
+#e mainfile: audiovis.py
+#e sha1: f7f8a7
+#e modules: 
+#e Experiment: HiRes Experiment
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,condition,time,stype,id,target_time
+1,,1990,"sound,tapoter_du_doigt_MALE_G.wav,2000"
+1,,12990,"sound,stop.wav,13000"
+1,,18990,"sound,budget_FEMALE_C.wav,19000"
+1,,24990,"sound,signal_MALE_G.wav,25000"
+1,,30990,"sound,stop.wav,31000"
+1,,36990,"sound,tapoter_du_doigt_MALE_G.wav,37000"
+1,,47990,"sound,stop.wav,48000"
+1,,53990,"sound,nation_MALE_G.wav,54000"
+1,,59990,"sound,phrase_FEMALE_C.wav,60000"
+1,,65990,"sound,stop.wav,66000"
+1,,71990,"sound,tapoter_du_doigt_FEMALE_C.wav,72000"
+1,,82990,"sound,stop.wav,83000"
+1,,88990,"sound,effort_FEMALE_C.wav,89000"
+1,,94990,"sound,tennis_MALE_G.wav,95000"
+1,,100990,"sound,stop.wav,101000"
+1,,106990,"sound,tapoter_du_doigt_FEMALE_C.wav,107000"
+1,,117990,"sound,stop.wav,118000"
+1,,123990,"sound,blonde_FEMALE_C.wav,124000"
+1,,129990,"sound,client_FEMALE_C.wav,130000"
+1,,135990,"sound,stop.wav,136000"
+1,,141990,"sound,tapoter_du_doigt_MALE_G.wav,142000"
+1,,152990,"sound,stop.wav,153000"
+1,,158990,"sound,vision_FEMALE_C.wav,159000"
+1,,164990,"sound,tunnel_MALE_G.wav,165000"
+1,,170990,"sound,stop.wav,171000"
+1,,176990,"sound,tapoter_du_doigt_FEMALE_C.wav,177000"
+1,,187990,"sound,stop.wav,188000"
+1,,193990,"sound,profit_MALE_G.wav,194000"
+1,,199990,"sound,temple_MALE_G.wav,200000"
+1,,205990,"sound,stop.wav,206000"

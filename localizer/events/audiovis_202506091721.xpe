@@ -1,0 +1,15 @@
+#Expyriment 0.11.dev5 (Python 3.12.7), .xpe-file, coding: UTF-8
+#date: Mon Jun 09 2025 17:21:59
+#sha1: f7f8a7
+#modules: 
+#display: size=(1280, 1028), window_mode=False, opengl=2
+#os: uname_result(system='Linux', node='Geoff3', release='6.11.0-25-generic', version='#25-Ubuntu SMP PREEMPT_DYNAMIC Fri Apr 11 23:29:18 UTC 2025', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+4091,stdout,received,"Pandas(Index=0, onset=2000, type='sound', stim='tapoter_du_doigt_MALE_G.wav')"
+4091,stderr,received,'Traceback (most recent call last):'
+4091,stderr,received,'  File "/home/avalazem/Desktop/Work/Single_Word_Processing_Stage/SWP_Pilot_4/localizer/audiovis.py", line 178, in <module>'
+4091,stderr,received,'    mapsounds[f] = stimuli.Audio(op.join(bp, f))'
+4091,stderr,received,'                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+4091,stderr,received,'  File "/home/avalazem/Desktop/Work/Single_Word_Processing_Stage/lib/python3.12/site-packages/expyriment/stimuli/_audio.py", line 52, in __init__'
+4092,stderr,received,'    raise IOError(u"The audio file {0} does not exists".format('
+4092,stderr,received,'OSError: The audio file hand_categories/tapoter_du_doigt_MALE_G.wav does not exists'
